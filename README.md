@@ -44,7 +44,7 @@ If you are planning to use the script more often, it is highly recommended to re
 ### <a name="exec">Execution</a> Policy Explained  
 The PowerShell Execution Policy is a safety feature that, by default, prevents the running of scripts (`.ps1` files) to protect your system from malicious code.  
   
-1. Why adjustment of Execution Policy is Required
+1. Why adjustment of Execution Policy is Required  
 Essentially, the __default__ state of Execution Policy is `Restricted`, which results in all scripts being blocked from execution.
 It is a **security measure** which you will have to temporarily or permanently adjust to allow running of our script.
 2. The Three Ways to Allow a Script  
@@ -79,6 +79,7 @@ Run Powershell using the **Administrator** rights and run the following command:
    
 This will essentially allow you to re-enter the PowerShell window, reboot your PC and still be able to run `.ps1` scripts at will.
 Just run `C:\Path\To\Script\RemoveEmptyFolders.ps1` after you have applied the above-mentioned settings.  
+
 
 
 
