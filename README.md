@@ -57,8 +57,9 @@ It is a **security measure** which you will have to temporarily or permanently a
 Method A (For this Specific Command):  
 > _inside powershell_
 >     
-> powershell -ExecutionPolicy Bypass -File "C:\Path\To\Script\RemoveEmptyFolders.ps1"
+> powershell -ExecutionPolicy Bypass -File "C:\Path\To\Script\RemoveEmptyFolders.ps1"  
 The `powershell` command here is used to call the script.
+
 
 
 
