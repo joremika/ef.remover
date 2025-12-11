@@ -68,9 +68,11 @@ Open Powershell, change the policy for the current window and then run the scrip
 >
 > Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 >
+>   
 > _then, we need to call the script by providing the full path to it, like this:_
 >   
 > "C:\Path\To\Script\RemoveEmptyFolders.ps1"  
+
 
 
 
