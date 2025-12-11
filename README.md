@@ -75,7 +75,9 @@ Open Powershell, change the policy for the current window and then run the scrip
 
 **Method C** (Permanent):  
 Run Powershell using the **Administrator** rights and run the following command:  
-> Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned  
+> Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+This will essentially allow you to re-enter the PowerShell window, reboot your PC and still be able to run `.ps1` scripts at will.   
+
 
 
 
