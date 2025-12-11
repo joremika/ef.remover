@@ -13,11 +13,11 @@ Refer to the following section to read more on what is considered an empty folde
 This method allows you to spend less time typing and more time actually executing. Please refer to the below steps for exhaustive information.  
 1. Place the `RemoveEmptyFolders.ps1` script inside a specific folder, for example, `C:\Users\%USERNAME%\Scripts` (you may choose a different name for your folder, it does not have to be named `Scripts`)
 2. Add that folder to your `PATH`:  
-   Using the searchbar, navigate to `Environment Variables`  
-   Click on `Environment Variables`  
-   Select a variable called `Path` inside the `User variables` interface and click `Edit`  
-   Click `New` and add (copy & paste) the full path to your script's folder
-   Click `OK` twice - once after adding the path and then to apply changes
+- Using the searchbar, navigate to `Environment Variables`  
+- Click on `Environment Variables`  
+- Select a variable called `Path` inside the `User variables` interface and click `Edit`  
+- Click `New` and add (copy & paste) the full path to your script's folder
+- Click `OK` twice - once after adding the path and then to apply changes
 3. Open a **new** PowerShell or Command Prompt window
 4. You are ready to run the script:
 > **cleans the current directory*  
@@ -27,6 +27,7 @@ This method allows you to spend less time typing and more time actually executin
    
    
 ### Option 2 - 
+
 
 
 
