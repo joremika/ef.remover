@@ -20,13 +20,14 @@ This method allows you to spend less time typing and more time actually executin
    Click `OK` twice - once after adding the path and then to apply changes
 3. Open a **new** PowerShell or Command Prompt window
 4. You are ready to run the script:
-> **cleans the current directory*
-> RemoveEmptyFolders.ps1
-> **cleans a specific folder*
-> RemoveEmptyFolders.ps1 -Path "C:\User\Archive"
+> **cleans the current directory*  
+> RemoveEmptyFolders.ps1  
+> **cleans a specific folder*  
+> RemoveEmptyFolders.ps1 -Path "C:\User\Archive"  
    
    
 ### Option 2 - 
+
 
 
 
