@@ -55,8 +55,9 @@ It is a **security measure** which you will have to temporarily or permanently a
 | Permanent for Current User | `Set-ExecutionPolicy -Scope CurrentUser...` | Allows scripts to be run at any time. Closing and reopening Powershell, as well as a PC restart, will not reset the settings. |
 3. Running the Script: In Practice: 
 Method A (For this Specific Command):  
-> __inside powershell__
+> __inside powershell__  
 > powershell -ExecutionPolicy Bypass -File "C:\Path\To\Script\RemoveEmptyFolders.ps1" 
+
 
 
 
