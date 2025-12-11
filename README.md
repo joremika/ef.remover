@@ -21,12 +21,13 @@ This method allows you to spend less time typing and more time actually executin
 3. Open a **new** PowerShell or Command Prompt window
 4. You are ready to run the script:
 > **cleans the current directory*  
-> RemoveEmptyFolders.ps1  
+> **RemoveEmptyFolders.ps1**  
 > **cleans a specific folder*  
-> RemoveEmptyFolders.ps1 -Path "C:\User\Archive"  
+> **RemoveEmptyFolders.ps1 -Path "C:\User\Archive"**  
    
    
 ### Option 2 - 
+
 
 
 
