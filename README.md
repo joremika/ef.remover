@@ -6,8 +6,9 @@ Refer to the following section to read more on what is considered an empty folde
 
 #### General (common) Prerequisites 
 
-1. Windows Powershell starting from v. 5.1. Please refer to the following [link](https://learn.microsoft.com/en-us/powershell/scripting/install/install-powershell-on-windows?view=powershell-7.5) for the latest version.
+1. Windows Powershell starting from v. 5.1. Please refer to the following [link](https://learn.microsoft.com/en-us/powershell/scripting/install/install-powershell-on-windows?view=powershell-7.5) for the latest version of Powershell.
 2. **Execution Policy** set to at least `remoteSigned`
+
 
 
 
