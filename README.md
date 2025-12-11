@@ -13,7 +13,7 @@ Refer to the following section to read more on what is considered an empty folde
 ### General (common) Prerequisites 
 
 1. Windows PowerShell starting from v. 5.1. Please refer to the following [link](https://learn.microsoft.com/en-us/powershell/scripting/install/install-powershell-on-windows?view=powershell-7.5) for the latest version of PowerShell.
-2. **Execution Policy** set to at least `remoteSigned`
+2. **Execution Policy** set to at least `remoteSigned`. Refer to [this section](#exec) for more information about it. 
 
 ### <a name="opt1">Option 1</a> - Efficient and Permanent (Recommended)  
 This method allows you to spend less time typing and more time actually executing. Please refer to the below steps for exhaustive information.  
@@ -40,6 +40,7 @@ If you are planning to use the script more often, it is highly recommended to re
 2. Run the script by entering its full path like this:
 > "C:\Path\To\Your\Script\RemoveEmptyFolders.ps1 
 
+### <a name="exec">Execution</a> Policy Explained
 
 
 
