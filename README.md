@@ -1,8 +1,9 @@
 # EMPTY FOLDER REMOVER 
 This powershell tool allows you to get rid of empty folders. Recursively. Bottom-to-Top. 
 Refer to the following section to read more on what is considered an empty folder by the engine.  
-
-<hr>  
+  
+<hr>    
+  
 ## NAVIGATION  
 - [GETTING STARTED](#gs) 
 - [Usage Option 1](#opt1) 
@@ -81,6 +82,7 @@ Run Powershell using the **Administrator** rights and run the following command:
    
 This will essentially allow you to re-enter the PowerShell window, reboot your PC and still be able to run `.ps1` scripts at will.
 Just run `C:\Path\To\Script\RemoveEmptyFolders.ps1` after you have applied the above-mentioned settings.  
+
 
 
 
