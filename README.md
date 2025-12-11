@@ -50,7 +50,7 @@ It is a **security measure** which you will have to temporarily or permanently a
 2. The Three Ways to Allow a Script
     
 | Scope | Command | Effect |  
-|  ----  |  ----  |  ----  |
+|  :----:  |  :----:  |  ----  |
 | For this specific Command | `-ExecutionPolicy Bypass` flag | Maximum security. Used alongside a command that will call the script and only works for that command. |
 | For this PowerShell Session | `Set-ExecutionPolicy -Scope Process...` | Effect lasts until you close the currently opened PowerShell window. |
 | Permanent for Current User | `Set-ExecutionPolicy -Scope CurrentUser...` | Allows scripts to be run at any time. Closing and reopening Powershell, as well as a PC restart, will not reset the settings. |
@@ -80,6 +80,7 @@ Run Powershell using the **Administrator** rights and run the following command:
    
 This will essentially allow you to re-enter the PowerShell window, reboot your PC and still be able to run `.ps1` scripts at will.
 Just run `C:\Path\To\Script\RemoveEmptyFolders.ps1` after you have applied the above-mentioned settings.  
+
 
 
 
