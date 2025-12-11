@@ -64,11 +64,14 @@ The `powershell` command here is used to call the script.
 
 **Method B** (For this Session):  
 Open Powershell, change the policy for the current window and then run the script.    
-> _inside powershell_
+> _inside powershell, first we need to allow running of scripts for this session by running the below command:_
 >
 > Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 >
+> _then, we need to call the script by providing the full path to it, like this:_
+>   
 > "C:\Path\To\Script\RemoveEmptyFolders.ps1"  
+
 
 
 
