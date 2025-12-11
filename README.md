@@ -11,7 +11,7 @@ Refer to the following section to read more on what is considered an empty folde
 - [On Execution Policy](#exec)
 <hr>  
   
-### <a name="gs">Getting Started</a> - Available Options
+### 🚀 <a name="gs">Getting Started</a> - Available Options
 
 ### General (common) Prerequisites 
 
@@ -82,6 +82,7 @@ Run Powershell using the **Administrator** rights and run the following command:
    
 This will essentially allow you to re-enter the PowerShell window, reboot your PC and still be able to run `.ps1` scripts at will.
 Just run `C:\Path\To\Script\RemoveEmptyFolders.ps1` after you have applied the above-mentioned settings.  
+
 
 
 
