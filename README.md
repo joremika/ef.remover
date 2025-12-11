@@ -7,6 +7,7 @@ Refer to the following section to read more on what is considered an empty folde
 ##### General (common) Prerequisites 
 
 1. Windows Powershell starting from v. 5.1
-2. Execution Policy set to at least `remoteSigned`
+2. **Execution Policy** set to at least `remoteSigned`
+
 
 
