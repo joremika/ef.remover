@@ -4,7 +4,9 @@ Refer to the following section to read more on what is considered an empty folde
 
 # ===NAVIGATION===
 
-### Getting Started - Available Options
+## === [GETTING STARTED](#gs)
+
+### <a name="gs">Getting Started</a> - Available Options
 
 ### General (common) Prerequisites 
 
@@ -35,6 +37,7 @@ If you are planning to use the script more often, it is highly recommended to re
 > cd "C:\Path\To\Target\Folder"
 2. Run the script by entering its full path like this:
 > "C:\Path\To\Your\Script\RemoveEmptyFolders.ps1 
+
 
 
 
