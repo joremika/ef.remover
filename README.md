@@ -18,7 +18,7 @@ This method allows you to spend less time typing and more time actually executin
 - Select a variable called `Path` inside the `User variables` interface and click `Edit`  
 - Click `New` and add (copy & paste) the full path to your script's folder
 - Click `OK` twice - once after adding the path and then to apply changes
-3. Open a **new** PowerShell or Command Prompt window
+3. Open a **new** PowerShell or Command Prompt window  
 4. You are ready to run the script:
 > **cleans the current directory*  
 > **RemoveEmptyFolders.ps1**  
@@ -27,6 +27,7 @@ This method allows you to spend less time typing and more time actually executin
    
    
 ### Option 2 - 
+
 
 
 
