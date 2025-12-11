@@ -73,6 +73,11 @@ Open Powershell, change the policy for the current window and then run the scrip
 >   
 > "C:\Path\To\Script\RemoveEmptyFolders.ps1"  
 
+**Method C** (Permanent):  
+Run Powershell using the **Administrator** rights and run the following command:  
+> Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned  
+
+
 
 
 
