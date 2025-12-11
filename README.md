@@ -9,6 +9,26 @@ Refer to the following section to read more on what is considered an empty folde
 1. Windows PowerShell starting from v. 5.1. Please refer to the following [link](https://learn.microsoft.com/en-us/powershell/scripting/install/install-powershell-on-windows?view=powershell-7.5) for the latest version of PowerShell.
 2. **Execution Policy** set to at least `remoteSigned`
 
+#### Option 1 - Efficient and Permanent (Recommended)  
+This method allows you to spend less time typing and more time actually executing. Please refer to the below steps for exhastive information.  
+1. Place the `RemoveEmptyFolders.ps1` script inside a specific folder, for example, `C:\Users\%USERNAME%\Scripts` (you may choose a different name for your folder, it does not have to be named `Scripts`)
+2. Add that folder to your `PATH`:  
+   Using the searchbar, navigate to `Environment Variables`  
+   Click on `Environment Variables`  
+   Select a variable called `Path` inside the `User variables` interface and click `Edit`  
+   Click `New` and add (copy & paste) the full path to your script's folder
+   Click `OK` twice - once after adding the path and then to apply changes
+3. Open a **new** PowerShell or Command Prompt window
+4. You are ready to run the script:
+> **cleans the current directory*
+> RemoveEmptyFolders.ps1
+> **cleans a specific folder*
+> RemoveEmptyFolders.ps1 -Path "C:\User\Archive"
+   
+   
+### Option 2 - 
+
+
 
 
 
