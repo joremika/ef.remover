@@ -44,7 +44,7 @@ If you are planning to use the script more often, it is highly recommended to re
 2. Run the script by entering the following command:
 > powershell -ExecutionPolicy Bypass -File C:\Path\To\Your\Script\RemoveEmptyFolders.ps1 
 
-### <a name="exec">Execution</a> Policy Explained  
+### <a name="exec">🔧 Execution</a> Policy Explained  
 The PowerShell Execution Policy is a safety feature that, by default, prevents the running of scripts (`.ps1` files) to protect your system from malicious code.  
   
 1. Why adjustment of Execution Policy is Required  
@@ -85,6 +85,7 @@ This will essentially allow you to re-enter the PowerShell window, reboot your P
 Just run `C:\Path\To\Script\RemoveEmptyFolders.ps1` after you have applied the above-mentioned settings.   
 
 ### <a name="engine">⚙️ Script Engine Specifics</a>  
+
 
 
 
