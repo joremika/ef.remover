@@ -1,6 +1,6 @@
 # EMPTY FOLDER REMOVER 
 This powershell tool allows you to get rid of empty folders. Recursively. Bottom-to-Top. 
-Refer to the following section to read more on what is considered an empty folder by the engine.  
+Refer to the [following](#engine) section to read more on what is considered an empty folder by the engine.  
   
 <hr>    
   
@@ -9,16 +9,17 @@ Refer to the following section to read more on what is considered an empty folde
 - [Usage Option 1](#opt1) 
 - [Usage Option 2](#opt2) 
 - [On Execution Policy](#exec)
+- [On Script Engine](#engine)
 <hr>  
   
 ### 🚀 <a name="gs">Getting Started</a> - Available Options
 
-### General (common) Prerequisites 
+## General (common) Prerequisites 
 
 1. Windows PowerShell starting from v. 5.1. Please refer to the following [link](https://learn.microsoft.com/en-us/powershell/scripting/install/install-powershell-on-windows?view=powershell-7.5) for the latest version of PowerShell.
 2. **Execution Policy** set to at least `remoteSigned`. Refer to [this section](#exec) for more information about it. 
 
-### <a name="opt1">Option 1</a> - Efficient and Permanent (Recommended)  
+## <a name="opt1">Option 1</a> - Efficient and Permanent (Recommended)  
 This method allows you to spend less time typing and more time actually executing. Please refer to the below steps for exhaustive information.  
 1. Place the `RemoveEmptyFolders.ps1` script inside a specific folder, for example, `C:\Users\%USERNAME%\Scripts` (you may choose a different name for your folder, it does not have to be named `Scripts`)
 2. Add that folder to your `PATH`:  
@@ -35,7 +36,7 @@ This method allows you to spend less time typing and more time actually executin
 > **RemoveEmptyFolders.ps1 -Path "C:\User\Archive"**  
    
    
-### <a name="opt2">Option 2</a> - Straightforward and Immediate  
+## <a name="opt2">Option 2</a> - Straightforward and Immediate  
 This is a much swifter way of doing the same thing as Option 1 provides, though more verbose.   
 If you are planning to use the script more often, it is highly recommended to resort to Option 1 instead.
 1. Open PowerShell and navigate to the folder you wish to clean using `cd`
@@ -81,7 +82,10 @@ Run Powershell using the **Administrator** rights and run the following command:
 > Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned  
    
 This will essentially allow you to re-enter the PowerShell window, reboot your PC and still be able to run `.ps1` scripts at will.
-Just run `C:\Path\To\Script\RemoveEmptyFolders.ps1` after you have applied the above-mentioned settings.  
+Just run `C:\Path\To\Script\RemoveEmptyFolders.ps1` after you have applied the above-mentioned settings.   
+
+### <a name="engine">Script Engine Specifics</a>  
+
 
 
 
