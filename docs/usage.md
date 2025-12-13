@@ -24,6 +24,6 @@ This is a much swifter way of doing the same thing as Option 1 provides, though 
 If you are planning to use the script more often, it is highly recommended to resort to Option 1 instead.
 1. Open PowerShell and navigate to the folder you wish to clean using `cd`
 > cd "C:\Path\To\Target\Folder"
-2. Run the script by entering the following command:
+2. Run the script by entering the following command:  
 > powershell -ExecutionPolicy Bypass -File C:\Path\To\Your\Script\RemoveEmptyFolders.ps1 
   
