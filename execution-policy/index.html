@@ -556,9 +556,9 @@ It is a <strong>security measure</strong> which you will have to temporarily or 
 Open Powershell, change the policy for the current window and then run the script.    </p>
 <blockquote>
 <p><em>inside powershell, first we need to allow running of scripts for this session by running the below command:</em></p>
-<p>Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass</p>
+<p><strong>Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass</strong></p>
 <p><em>then, we need to call the script by providing the full path to it, like this:</em></p>
-<p>"C:\Path\To\Script\RemoveEmptyFolders.ps1"  </p>
+<p><strong>"C:\Path\To\Script\RemoveEmptyFolders.ps1"</strong>   </p>
 </blockquote>
 <p><strong>Method C</strong> (Permanent):<br />
 Run Powershell using the <strong>Administrator</strong> rights and run the following command:  </p>
