@@ -549,7 +549,7 @@ It is a <strong>security measure</strong> which you will have to temporarily or 
 <p><strong>Method A</strong> (For this Specific Command):  </p>
 <blockquote>
 <p><em>inside powershell</em></p>
-<p>powershell -ExecutionPolicy Bypass -File "C:\Path\To\Script\RemoveEmptyFolders.ps1"  </p>
+<p><strong>powershell -ExecutionPolicy Bypass -File "C:\Path\To\Script\RemoveEmptyFolders.ps1"</strong>  </p>
 </blockquote>
 <p>The <code>powershell</code> command here is used to call the script.  </p>
 <p><strong>Method B</strong> (For this Session):<br />
@@ -563,7 +563,7 @@ Open Powershell, change the policy for the current window and then run the scrip
 <p><strong>Method C</strong> (Permanent):<br />
 Run Powershell using the <strong>Administrator</strong> rights and run the following command:  </p>
 <blockquote>
-<p>Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned  </p>
+<p><strong>Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned</strong>    </p>
 </blockquote>
 <p>This will essentially allow you to re-enter the PowerShell window, reboot your PC and still be able to run <code>.ps1</code> scripts at will.
 Just run <code>C:\Path\To\Script\RemoveEmptyFolders.ps1</code> after you have applied the above-mentioned settings.   </p>
