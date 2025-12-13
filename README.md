@@ -5,7 +5,7 @@ Refer to the [following](#engine) section to read more on what is considered an 
 <hr>    
   
 ## NAVIGATION  
-- [GETTING STARTED](#gs) 
+- [Getting Started](#gs) 
 - [Usage Option 1](#opt1) 
 - [Usage Option 2](#opt2) 
 - [On Execution Policy](#exec)
@@ -32,9 +32,12 @@ This method allows you to spend less time typing and more time actually executin
 - Click `OK` twice - once after adding the path and then to apply changes
 3. Open a **new** PowerShell or Command Prompt window  
 4. You are ready to run the script:
-> **cleans the current directory*  
-> **RemoveEmptyFolders.ps1**  
-> **cleans a specific folder*  
+> _cleans the current directory_
+>   
+> **RemoveEmptyFolders.ps1**
+>   
+> _cleans a specific folder_
+>   
 > **RemoveEmptyFolders.ps1 -Path "C:\User\Archive"**  
    
    
@@ -52,13 +55,14 @@ The PowerShell Execution Policy is a safety feature that, by default, prevents t
 1. Why adjustment of Execution Policy is Required  
 Essentially, the __default__ state of Execution Policy is `Restricted`, which results in all scripts being blocked from execution.
 It is a **security measure** which you will have to temporarily or permanently adjust to allow running of our script.
-2. The Three Ways to Allow a Script
+2. The Three Ways to Allow a Script   
     
 | Scope | Command | Effect |  
 |  :----:  |  :----:  |  ----  |
 | For this specific Command | `-ExecutionPolicy Bypass` flag | Maximum security. Used alongside a command that will call the script and only works for that command. |
 | For this PowerShell Session | `Set-ExecutionPolicy -Scope Process...` | Effect lasts until you close the currently opened PowerShell window. |
-| Permanent for Current User | `Set-ExecutionPolicy -Scope CurrentUser...` | Allows scripts to be run at any time. Closing and reopening Powershell, as well as a PC restart, will not reset the settings. |
+| Permanent for Current User | `Set-ExecutionPolicy -Scope CurrentUser...` | Allows scripts to be run at any time. Closing and reopening Powershell, as well as a PC restart, will not reset the settings. |  
+  
 3. Running the Script: In Practice:
   
 **Method A** (For this Specific Command):  
@@ -98,6 +102,13 @@ This section is work in progress.
 
 ### <a name="fordevs"> For Developers </a>   
 This section is work in progress.
+
+
+
+
+
+
+
 
 
 
