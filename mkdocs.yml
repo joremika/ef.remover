@@ -1,0 +1,17 @@
+site_name: Empty Folder Remover
+
+theme:
+  name: material
+  extra_css:
+    - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Navigation: navigation.md
+  - 'Getting Started - Available Options': getting-started.md
+  - Usage: usage.md
+  - 'Execution Policy': execution-policy.md
+  - 'Script Engine': script-engine.md
+  - 'Project Roadmap': project-roadmap.md
+  - 'For Developers': for-developers.md
+
