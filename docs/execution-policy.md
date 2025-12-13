@@ -1,11 +1,11 @@
 ### <a name="exec">🔧 Execution</a> Policy Explained  
 The PowerShell Execution Policy is a safety feature that, by default, prevents the running of scripts (`.ps1` files) to protect your system from malicious code.  
   
-1. Why adjustment of Execution Policy is Required  
+1\. Why adjustment of Execution Policy is Required  
 Essentially, the __default__ state of Execution Policy is `Restricted`, which results in all scripts being blocked from execution.
 It is a **security measure** which you will have to temporarily or permanently adjust to allow running of our script.
   
-2. The Three Ways to Allow a Script
+2\. The Three Ways to Allow a Script
     
 | Scope | Command | Effect |  
 |  :----:  |  :----:  |  ----  |
@@ -13,7 +13,7 @@ It is a **security measure** which you will have to temporarily or permanently a
 | For this PowerShell Session | `Set-ExecutionPolicy -Scope Process...` | Effect lasts until you close the currently opened PowerShell window. |
 | Permanent for Current User | `Set-ExecutionPolicy -Scope CurrentUser...` | Allows scripts to be run at any time. Closing and reopening Powershell, as well as a PC restart, will not reset the settings. |  
    
-3. Running the Script: In Practice:
+3\. Running the Script: In Practice:
   
 **Method A** (For this Specific Command):  
 > _inside powershell_
