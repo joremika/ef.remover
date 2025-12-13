@@ -91,8 +91,9 @@ Folders containing other folders (_even empty ones_) will be considered non-empt
 This is also exactly _why_ the searching algorithm starts at the very bottom of the folder tree.   
 
 
-### <a name="roadmap"> Project Roadmap </a>   
+### <a name="roadmap"> 💡 Project Roadmap </a>   
 This section is work in progress.
+
 
 
 
