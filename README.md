@@ -5,7 +5,7 @@ Refer to the [following](#engine) section to read more on what is considered an 
 <hr>    
   
 ## NAVIGATION  
-- [GETTING STARTED](#gs) 
+- [Getting Started](#gs) 
 - [Usage Option 1](#opt1) 
 - [Usage Option 2](#opt2) 
 - [On Execution Policy](#exec)
@@ -102,6 +102,7 @@ This section is work in progress.
 
 ### <a name="fordevs"> For Developers </a>   
 This section is work in progress.
+
 
 
 
