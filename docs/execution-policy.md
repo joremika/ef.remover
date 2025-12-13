@@ -5,7 +5,7 @@ The PowerShell Execution Policy is a safety feature that, by default, prevents t
 Essentially, the __default__ state of Execution Policy is `Restricted`, which results in all scripts being blocked from execution.
 It is a **security measure** which you will have to temporarily or permanently adjust to allow running of our script.
   
-3. The Three Ways to Allow a Script
+2. The Three Ways to Allow a Script
     
 | Scope | Command | Effect |  
 |  :----:  |  :----:  |  ----  |

@@ -516,10 +516,14 @@
 <h3 id="execution-policy-explained"><a name="exec">🔧 Execution</a> Policy Explained</h3>
 <p>The PowerShell Execution Policy is a safety feature that, by default, prevents the running of scripts (<code>.ps1</code> files) to protect your system from malicious code.  </p>
 <ol>
-<li>Why adjustment of Execution Policy is Required<br />
+<li>
+<p>Why adjustment of Execution Policy is Required<br />
 Essentially, the <strong>default</strong> state of Execution Policy is <code>Restricted</code>, which results in all scripts being blocked from execution.
-It is a <strong>security measure</strong> which you will have to temporarily or permanently adjust to allow running of our script.</li>
-<li>The Three Ways to Allow a Script</li>
+It is a <strong>security measure</strong> which you will have to temporarily or permanently adjust to allow running of our script.</p>
+</li>
+<li>
+<p>The Three Ways to Allow a Script</p>
+</li>
 </ol>
 <table>
 <thead>
@@ -545,13 +549,11 @@ It is a <strong>security measure</strong> which you will have to temporarily or 
 <td style="text-align: center;"><code>Set-ExecutionPolicy -Scope CurrentUser...</code></td>
 <td>Allows scripts to be run at any time. Closing and reopening Powershell, as well as a PC restart, will not reset the settings.</td>
 </tr>
-<tr>
-<td style="text-align: center;">3. Running the Script: In Practice:</td>
-<td style="text-align: center;"></td>
-<td></td>
-</tr>
 </tbody>
 </table>
+<ol>
+<li>Running the Script: In Practice:</li>
+</ol>
 <p><strong>Method A</strong> (For this Specific Command):  </p>
 <blockquote>
 <p><em>inside powershell</em></p>
