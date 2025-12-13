@@ -84,7 +84,11 @@ Run Powershell using the **Administrator** rights and run the following command:
 This will essentially allow you to re-enter the PowerShell window, reboot your PC and still be able to run `.ps1` scripts at will.
 Just run `C:\Path\To\Script\RemoveEmptyFolders.ps1` after you have applied the above-mentioned settings.   
 
-### <a name="engine">⚙️ Script Engine Specifics</a>  
+### <a name="engine">⚙️ Script Engine Specifics</a>   
+The Engine (or the algorithm) will only get rid of completely empty folders that do not have anything inside of them.   
+Folders containing other folders (_even empty ones_) will be considered non-empty.   
+This is also exactly _why_ the searching algorithm starts at the very bottom of the folder tree.  
+
 
 
 
