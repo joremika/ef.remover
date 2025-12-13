@@ -21,9 +21,9 @@ This method allows you to spend less time typing and more time actually executin
    
 ## <a name="opt2">Option 2 - Straightforward and Immediate </a> 
 This is a much swifter way of doing the same thing as Option 1 provides, though more verbose.   
-If you are planning to use the script more often, it is highly recommended to resort to Option 1 instead.
-1. Open PowerShell and navigate to the folder you wish to clean using `cd`
-> cd "C:\Path\To\Target\Folder"  
-2. Run the script by entering the following command:  
-> powershell -ExecutionPolicy Bypass -File C:\Path\To\Your\Script\RemoveEmptyFolders.ps1 
+If you are planning to use the script more often, it is highly recommended to resort to Option 1 instead.  <br>
+1.Open PowerShell and navigate to the folder you wish to clean using `cd`
+> cd "C:\Path\To\Target\Folder"   <br> 
+2. Run the script by entering the following command:   <br> 
+> powershell -ExecutionPolicy Bypass -File C:\Path\To\Your\Script\RemoveEmptyFolders.ps1  <br>
   
