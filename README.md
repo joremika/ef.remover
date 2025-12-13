@@ -10,6 +10,7 @@ Refer to the [following](#engine) section to read more on what is considered an 
 - [Usage Option 2](#opt2) 
 - [On Execution Policy](#exec)
 - [On Script Engine](#engine)
+- [Project Roadmap (WIP)](#roadmap)
 <hr>  
   
 ### 🚀 <a name="gs">Getting Started</a> - Available Options
@@ -87,7 +88,12 @@ Just run `C:\Path\To\Script\RemoveEmptyFolders.ps1` after you have applied the a
 ### <a name="engine">⚙️ Script Engine Specifics</a>   
 The Engine (or the algorithm) will only get rid of completely empty folders that do not have anything inside of them.   
 Folders containing other folders (_even empty ones_) will be considered non-empty.   
-This is also exactly _why_ the searching algorithm starts at the very bottom of the folder tree.  
+This is also exactly _why_ the searching algorithm starts at the very bottom of the folder tree.   
+
+
+### <a name="roadmap"> Project Roadmap </a>   
+This section is work in progress.
+
 
 
 
