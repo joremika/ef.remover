@@ -10,7 +10,8 @@ It is a **security measure** which you will have to temporarily or permanently a
 |  :----:  |  :----:  |  ----  |
 | For this specific Command | `-ExecutionPolicy Bypass` flag | Maximum security. Used alongside a command that will call the script and only works for that command. |
 | For this PowerShell Session | `Set-ExecutionPolicy -Scope Process...` | Effect lasts until you close the currently opened PowerShell window. |
-| Permanent for Current User | `Set-ExecutionPolicy -Scope CurrentUser...` | Allows scripts to be run at any time. Closing and reopening Powershell, as well as a PC restart, will not reset the settings. |
+| Permanent for Current User | `Set-ExecutionPolicy -Scope CurrentUser...` | Allows scripts to be run at any time. Closing and reopening Powershell, as well as a PC restart, will not reset the settings. |  
+  
 3. Running the Script: In Practice:
   
 **Method A** (For this Specific Command):  
