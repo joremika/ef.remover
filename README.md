@@ -41,7 +41,7 @@ This method allows you to spend less time typing and more time actually executin
 > **RemoveEmptyFolders.ps1 -Path "C:\User\Archive"**  
    
    
-## <a name="opt2">Option 2</a> - Straightforward and Immediate zzz  
+## <a name="opt2">Option 2</a> - Straightforward and Immediate    
 This is a much swifter way of doing the same thing as Option 1 provides, though more verbose.   
 If you are planning to use the script more often, it is highly recommended to resort to Option 1 instead.
 1. Open PowerShell and navigate to the folder you wish to clean using `cd`
@@ -102,6 +102,7 @@ This section is work in progress.
 
 ### <a name="fordevs"> For Developers </a>   
 This section is work in progress.
+
 
 
 
